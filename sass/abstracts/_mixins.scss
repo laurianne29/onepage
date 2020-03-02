@@ -2,9 +2,16 @@
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
 
+@mixin linkStyle {
+    text-decoration: none;
+    color: $color-white;
+}
 
-
-
+@mixin absCenter {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 
 

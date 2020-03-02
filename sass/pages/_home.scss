@@ -49,14 +49,14 @@
     }
 }
 
-.section__1 {
+.section-1 {
     margin-top: -20%;
     padding-top: 22%;
     background-color: saddlebrown;
     height: 122vh;
 }
 
-.section__2 {
+.section-2 {
     background-color: lavender;
 
     .section__row__txt {
@@ -67,7 +67,20 @@
             align-self: flex-end;
         }
     }
+
+    &-btn {
+        @include linkStyle;
+        @include absCenter;
+        top: 100%;
+        display: block;
+        font-size: 17px;
+        text-align: center;
+        padding: 15px 0;
+        width: 57px;
+        clip-path: circle(40%);
+        background-color: green;
+    }
 }
 
-.section__3 {background-color: darkslategrey;}
-.section__4 {background-color: rosybrown;}
+.section-3 {background-color: darkslategrey;}
+.section-4 {background-color: rosybrown;}

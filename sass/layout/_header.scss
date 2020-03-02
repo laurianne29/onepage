@@ -8,6 +8,13 @@
     height: $height-section;
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
 
+    .fab {
+        font-size: 60px;
+        color:$color-white;
+        float: left;
+        padding-left: 10px;
+    }
+
     &__nav__list {
         display: flex; 
         justify-content: flex-end; 
