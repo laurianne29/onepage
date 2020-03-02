@@ -1,3 +1,23 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.header-scroll {
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    height: 50px;
+    width: 30px;
+    margin: 0 auto;
+
+    &--mouse {
+        display: block;
+        height: 7px;
+        width: 5px;
+        margin: 12px auto;
+        background-color: #fff;
+        border-radius: 50px;
+        animation: moveInBottom 1.3s ease infinite;
+    }
+
+}

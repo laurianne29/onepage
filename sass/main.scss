@@ -6,14 +6,10 @@
   'abstracts/functions',
   'abstracts/mixins';
 
-// 2. Vendors
-@import
-  'vendors/normalize';
-
 // 3. Base stuff
 @import
   'base/base',
-  'base/fonts',
+  'base/animations',
   'base/typography',
   'base/helpers';
 
@@ -29,7 +25,3 @@
 // 6. Page-specific styles
 @import
   'pages/home';
-
-// 7. Themes
-@import
-  'themes/default';

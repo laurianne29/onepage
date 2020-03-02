@@ -1,3 +1,31 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+
+
+.header {
+    background-color: steelblue;
+    height: $height-section;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+
+    &__nav__list {
+        display: flex; 
+        justify-content: flex-end; 
+        padding-top: 15px;
+    }
+    
+    &__nav__item{
+        list-style: none;
+    }
+
+    &__nav__link{
+        color: $color-white;
+        font-family: "Montserrat";
+        font-size: 16px;
+        line-height: 22px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-right: 40px;
+    }
+
+}

@@ -2,6 +2,36 @@
  * Basic typography style for copy text
  */
 body {
-  color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  color: $color-primary;
+}
+
+.heading-primary {
+  color: $color-white;
+  font-family: "Montserrat";
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+  padding-top: 38vh;
+  padding-bottom: 200px;;
+
+  animation-name: moveInTop;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+}
+
+.heading-secondary {
+  color: $color-white;
+  font-family: "Montserrat";
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-bottom: 130px;
+
+  @include respond(tab-port) {
+    padding-bottom: 60px;
+  }
 }

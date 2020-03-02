@@ -1,0 +1,26 @@
+{
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "Onepage test with sass",
+    "main": "index.js",
+    "dependencies": {
+      "fstream": "^1.0.12",
+      "tar": "^4.4.8"
+    },
+    "devDependencies": {
+      "node-sass": "^4.12.0"
+    },
+    "scripts": {
+      "compile:sass": "node-sass sass/main.scss css/main.css -w"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/laurianne29/onepage.git"
+    },
+    "author": "Laurianne",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/laurianne29/onepage/issues"
+    },
+    "homepage": "https://github.com/laurianne29/onepage#readme"
+  }
